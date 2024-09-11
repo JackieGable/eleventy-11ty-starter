@@ -1,6 +1,6 @@
 {
-    "primary_color": "#034AD8",
-    "secondary_color": "#D9CFFF",
+    "primary_color": "red",
+    "secondary_color": "skyblue",
     "gray_color": "#808080",
     "anchor_color": "#ffba08",
     "header_color": "#181512",

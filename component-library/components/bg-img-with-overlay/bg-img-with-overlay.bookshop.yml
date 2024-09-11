@@ -15,8 +15,8 @@ blueprint:
   logo_image:
     image_path: https://res.cloudinary.com/aggtrans/image/upload/w_600/f_auto,q_auto/logos/Aggtrans_over_40_year_logo_items_white_DELV.png
     image_alt: Aggtrans logo
-    position_left: 50
-    max-width: 300px;
+    
+    
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

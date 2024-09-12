@@ -2,24 +2,22 @@
 spec:
   structures:
     - content_blocks
-  label: "Bg-img-with-overlay"
+  label: "component-tester"
   description:
   icon:
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  background_image:
-    image_path: 
-    image_alt: 
-  logo_image:
-    image_path: 
-    image_alt: 
-    
-    
+  bg_image: 
+  bg_image_alt:
+  logo_image: 
+  logo_image_alt: 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  text:
+    type: markdown

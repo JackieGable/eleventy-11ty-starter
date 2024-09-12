@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include 'partials/meta.html' %}
+   
+        <script src="/assets/js/main.js" defer></script>
+        <title>{{ title }}{% if seo.title %} | {{ seo.title }}{% endif %}</title>
+ 
+    </head>
+    <body>
+        {% include 'partials/header.html' %}
+        <main id="main">
+            {% bookshop_include "hero" hero: hero title: title permalink: permalink %}
+
+            {% bookshop_include "page" content_blocks: content_blocks %}
+            {{ content }}
+        </main>
+        {% include 'partials/footer.html' %}
+    </body>
+
+</html>

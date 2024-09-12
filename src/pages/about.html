@@ -21,5 +21,35 @@ content_blocks:
       image_alt: Aggtrans logo
       position_left: 50
       max-width: 300px;
+  - _bookshop_name: centered-large-asset
+    content:
+      id:
+      heading:
+        _bookshop_name: generic/heading
+        eyebrow_headline: Eyebrow Heading
+        primary_heading: Large image or video block
+        eyebrow_headline_hierarchy: h3
+        primary_heading_hierarchy: h2
+      description: >-
+        Have a strong visual element you want to share? This component gives you
+        the flexibility to either add a YouTube video or an image.
+      asset:
+        _bookshop_name: generic/video
+        video_source: YouTube
+        video_url: https://youtu.be/gVUloujNd_I?si=M9Pb81oigA6TKXyf
+        fallback_image:
+          _bookshop_name: generic/image
+          image_path:
+          image_alt:
+      button:
+        _bookshop_name: generic/button
+        url: '#booking-form'
+        open_in_new_tab: false
+        text: Book Now
+        variant: primary
+        arrow: right
+        onclick:
+    styles:
+      color_group: secondary0
 
----
+---      

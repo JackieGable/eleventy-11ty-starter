@@ -42,3 +42,8 @@ Both your Bookshop components and the rest of the site require their own variabl
 ## SEO details and favicon
 - Favicon and site SEO details are set in the Data / Site section
 - SEO details can also be set in pages for page specific details.
+
+
+### /components page
+
+Within Venture, there is a `components.html` page that allows you to use a feature of Bookshop called Bookshop Browser. When developing locally, you can use `localhost:8080/components` to preview your Bookshop components in the context of your site. This `/components` page is for local development only, and will not show up in CloudCannon or on your live site.

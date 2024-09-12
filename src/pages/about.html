@@ -2,6 +2,7 @@
 title: About
 layout: layouts/page.html
 permalink: /about.html
+background_image:
 seo:
   page_description:
   canonical_url:
@@ -10,8 +11,54 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: bg-img-with-overlay
-    background_image.image_path: 'https://res.cloudinary.com/aggtrans/image/upload/f_auto,q_auto,dpr_auto/equipment/HeaderIMG-About-Us.jpg'
-    background_image.image_alt: Loader
-    logo_image.image_path: 'https://res.cloudinary.com/aggtrans/image/upload/w_600/f_auto,q_auto/logos/Aggtrans_over_40_year_logo_items_white_DELV.png'
-    logo_image.image_alt: Aggtrans logo
+    background_image:
+      image_path: >-
+        https://res.cloudinary.com/aggtrans/image/upload/f_auto,q_auto,dpr_auto/equipment/HeaderIMG-About-Us.jpg
+      image_alt: Loader
+    logo_image:
+      image_path: >-
+        https://res.cloudinary.com/aggtrans/image/upload/w_600,fl_progressive:semi/f_auto,q_auto/logos/Aggtrans_over_40_year_logo_items_white_DELV.png
+      image_alt: Aggtrans logo
+      position_left: 50
+      max-width: 300px;
+  - _bookshop_name: left-right
+    bg_image:
+    heading: Use what you need
+    text: Keep whatever components you want to use as reference.
+    button:
+      _bookshop_name: global/button
+      path: /
+      button_text: Read Analysis
+      button_text_color: '#fff'
+      button_color: '#c7588e'
+    image: /images/transparent-bg/gadget.png
+    image_alt:
+  - _bookshop_name: left-right
+    bg_image: /images/backgrounds/textures/home-plus.svg
+    heading: Delete the rest!
+    text: >-
+      This template is designed to be easy to strip out placeholder content and
+      insert your own.
+    button:
+      _bookshop_name: global/button
+      path: /
+      button_text: Learn More
+      button_text_color: '#ffffff'
+      button_color: '#8d5db2'
+    image: /images/transparent-bg/floating-phones.png
+    image_alt: Floating mobile phones
+  - _bookshop_name: left-right
+    bg_image: /images/backgrounds/textures/home-plus.svg
+    heading: Useful links
+    text: >-
+      https://undraw.co/search for illustrations with a transparent-bg. 
+      https://uigradients.com/ for gradients as a .jpg.
+    button:
+      _bookshop_name: global/button
+      path: /
+      button_text: Learn More
+      button_text_color: '#ffffff'
+      button_color: '#8d5db2'
+    image: /images/transparent-bg/floating-phones.png
+    image_alt: Floating mobile phones
 ---

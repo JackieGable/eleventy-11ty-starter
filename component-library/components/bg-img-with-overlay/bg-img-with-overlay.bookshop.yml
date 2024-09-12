@@ -3,12 +3,14 @@ spec:
   structures:
     - content_blocks
   label: "Bg-img-with-overlay"
-  description:
-  icon:
+  description: A background image with centered overlay image
+  icon: web_asset
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
+  heading: bookshop:Bg-img-with-overlay
+  description: A background image with centered overlay image
   background_image:
     image_path: 
     image_alt: 

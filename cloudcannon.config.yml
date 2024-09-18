@@ -11,6 +11,8 @@ collections_config:
         path: site/schemas/page.html
     _enabled_editors:
       - visual
+      - content
+      - data
   blog:
     path: blog
     icon: article
@@ -27,6 +29,7 @@ collections_config:
     _enabled_editors:
       - content
       - visual
+      - data
   data: 
     output: true
     path: _data
@@ -61,6 +64,8 @@ collections_config:
     icon: color_lens
     _enabled_editors:
       - data
+      - content
+      - visual
     filter:
       base: none
       include: 

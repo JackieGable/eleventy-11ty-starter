@@ -8,7 +8,7 @@ collections_config:
     path: pages
     schemas:
       default:
-        path: site/schemas/page.html
+        # path: site/schemas/page.html
     _enabled_editors:
       - visual
       - content
@@ -20,7 +20,7 @@ collections_config:
     output: true
     schemas:
       default:
-        path: site/schemas/post.md
+        # path: site/schemas/post.md
     preview:
       metadata: 
         - icon: newspaper

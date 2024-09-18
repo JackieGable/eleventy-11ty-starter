@@ -2,9 +2,10 @@
 <html lang="en">
   {% include 'partials/head.html' %}
   <body>
-    
+      {% include 'partials/agg-nav.html' %}
+      
     <main id="main" class="{% if mainPadding %}mainPad{% endif %}">
-    {% include 'partials/agg-nav.html' %}
+  
     {{ content }}
     
     </main>

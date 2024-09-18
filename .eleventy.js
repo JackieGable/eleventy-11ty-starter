@@ -82,7 +82,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('contains_block', contains_block_filter);
 
   // Tags
-  eleventyConfig.addLiquidTag('assign_local', assign_local_liquid_tag);
+  // eleventyConfig.addLiquidTag('assign_local', assign_local_liquid_tag);
 
   // esbuild
   eleventyConfig.addWatchTarget('./src/assets/js/**');
